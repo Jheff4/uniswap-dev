@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+body {
+  font-weight: 600;
+  font-size: 1.1rem;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background: rgb(33, 36, 41);
+  overflow: hidden;
+  /* rgb(206, 24, 157) */
+}
+
+.logo img {
+  width: 28px;
+  
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: cadetblue; */
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+
+.left {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.right {
+  display: flex;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.swap {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  list-style: none;
+  background-color: rgb(25, 27, 31);
+  /* border: 1px solid rgb(44, 47, 54); */
+  border-radius: 14px;
+} 
+ 
+.swap li:nth-child(1) {
+  background-color: rgb(33, 36, 41);
+  padding: 0.5rem 0.7rem;
+  border-radius: 12px;
+  margin: 2px;
+}
+
+/* .swap li:nth-child(2) {
+  
+  /* margin-bottom: 1.5px; */
+
+
+/* .swap li:nth-child(3) {
+  padding: 0.4rem 0.5rem;
+  border-radius: inherit;
+  margin-bottom: 1.5px;
+} */
+
+/* .swap li:nth-child(4) {
+  padding: 0.4rem 0.5rem;
+  border-radius: inherit;
+  margin-bottom: 1.5px; 
+} */
+
+
+.ethereum {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+  color: white;
+  background-color: rgb(25, 27, 31);
+  padding: 0.6rem 0.5rem;
+  align-items: center;
+  border-radius: 14px;
+  user-select: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ethereum img {
+  width: 22px;
+}
+
+.connect {
+  padding: 2.5px;
+  border-radius: 16px;
+  background-color: rgb(32, 30, 30);
+}
+
+.connect button{
+  display: flex;
+  border-radius: 14px;
+  align-items: center;
+  -webkit-box-align: center;
+  flex-flow: row nowrap;
+  padding: 0.5rem 1.2rem 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgba(21, 61, 111, 0.44);
+  border: 1px solid rgba(21, 61, 111, 0.44);
+  color: rgb(80, 144, 234);
+}
+
+.connect button:hover {
+  border-color: rgba(49, 95, 154, 0.44);
+}
+
+
+.nav button {
+  display: flex;
+  padding: 0.6rem 0.75rem;
+  align-items: center;
+  border-radius: 13px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(25, 27, 31);
+  border: 1px solid rgb(25, 27, 31);
+}
+
+.nav button:hover {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(64, 68, 79);
+}
+
+.second {
+  background-color: rgb(25, 27, 31);
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.top p {
+  font-size: 0.9rem;
+}
+
+.middle input, .middle-2 input {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(33, 36, 41);
+  border-radius: 20px;
+  padding: 0rem 0rem 1rem 1rem;
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+
+}
+
+.eth-2 img {
+  width: 30px;
+}
+
+.eth-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: rgb(40, 43, 47);
+  width: fit-content;
+  padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+  border-radius: 16px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 330px;
+  z-index: 1;
+}
+
+.eth-2 div {
+  font-size: 1.2rem;
+}
+
+.select {
+  display: flex;
+  border-radius: 14px;
+  align-items: center;
+  -webkit-box-align: center;
+  flex-flow: row nowrap;
+  padding: 0.5rem 1.2rem 0.5rem 1rem;
+  background-color: rgb(33, 114, 229);
+  opacity: 1;
+  box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 2.4rem;
+  border-radius: 16px;
+  width: fit-content;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 310px;
+}
+
+.wallet {
+  display: flex;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3rem;
+  -webkit-box-align: center;
+  flex-flow: row nowrap;
+  padding: 0.5rem 1.2rem 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: rgba(21, 61, 111, 0.44);
+  border: 1px solid rgba(21, 61, 111, 0.44);
+  color: rgb(80, 144, 234);
+  height: 50px;
+}
